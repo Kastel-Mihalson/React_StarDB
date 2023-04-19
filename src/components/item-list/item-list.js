@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import './item-list.css';
 import Spinner from '../spinner/spinner';
+import { Link } from 'react-router-dom';
 
 export default class ItemList extends Component {
     state = {
